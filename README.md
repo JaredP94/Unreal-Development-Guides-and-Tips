@@ -7,5 +7,5 @@ A broad repo ranging from high-level concept explanations down useful shortcuts 
 ## Content Directory
 
 ### The Basics
-*  Adding content to a project
-*  Level creation
+*  [Adding content to a project](Content/Basics/AddingContentToAProject.md)
+*  [Level creation](Content/Basics/LevelCreation.md)
