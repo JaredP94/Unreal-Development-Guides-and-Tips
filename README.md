@@ -9,3 +9,4 @@ A broad repo ranging from high-level concept explanations down useful shortcuts 
 ### The Basics
 *  [Adding content to a project](Content/Basics/AddingContentToAProject.md)
 *  [Level creation](Content/Basics/LevelCreation.md)
+*  [Improved scene lighting](Content/Basics/ImprovedSceneLighting.md)
