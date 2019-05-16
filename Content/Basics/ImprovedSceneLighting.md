@@ -5,21 +5,21 @@ Currently, your scene lighting may be quite harsh with overexposure and lack of 
 1. **Cast shadows**
    * Since the directional light in the scene does not make use of bounced light (Ray Tracing will not be used in this instance), an artificial bounced light is required by using the *Sky Light*.
    * Add a **Sky Light** from the *Modes* panel.
-   * Set the **Location** to **0, 0, 400** to hover the sky light above the level origin.
+   * Set the **Location** to **[0, 0, 400]** to hover the sky light above the level origin.
    * This will result in artificial bounced light in cast shadow areas.
    * Note that the default parameters are recommended and any adjustment should occur within the scene light sources rather than the sky light itself.
 
 2. **Automatic light exposure**
    * Moving the camera around the scene will result in automatic light exposure which may increase the difficulty of correctly balancing the scene lighting. A *Post Process Volume* allows for control of all light in the scene through a single controller.
    * Add a **Post Process Volume** from the *Modes* panel.
-   * Set the **Location** to **0, 0, 0** to place the post process volume at the level origin.
+   * Set the **Location** to **[0, 0, 0]** to place the post process volume at the level origin.
    * Under the **Lens** section of the *Details* pane for the post process volume, enable the **Min Brightness** and **Max Brightness** options with respective values of **1.0** each. This enforces the standard light exposure within the volume constraints.
    * Under the **Post Process Volume Settings** section, enable the **Infinite Extent (Unbound)** option. This enforces the standard light exposure across the entire level bounds.
 
 3. **Realistic sky effects**
    * The scene is lacking a realistic looking sky.
    * Add a **BP_Sky_Sphere** from the *Modes* panel.
-   * Set the **Location** to **0, 0, 0** to place the post process volume at the level origin.
+   * Set the **Location** to **[0, 0, 0]** to place the post process volume at the level origin.
    * The sky sphere offers optimal effects when linked to a directional light, as with atmospheric fog.
    * Under the **Default** section of the *Details* pane for the sky sphere, select the dropdown for the **Directional Light Actor** setting and select the directional light in the level.
 

@@ -20,12 +20,12 @@ Some core elements are generally required when creating a new level. These inclu
 4. **Player start location**
    * Starting the game will result in the character spawning in the corner of the map and possibly infinitely falling if no tiles are present at that location.
    * Add a **Player Start** from the *Modes* panel.
-   * Change the **Location** of the player start to **0, 0, 100** to have the spawn point at the level origin.
+   * Change the **Location** of the player start to **[0, 0, 100]** to have the spawn point at the level origin.
 
 5. **Sky lighting**
    * Meshes are currently being rendered, but the sky is still filled with darkness.
    * Add an **Atmospheric Fog** from the *Modes* panel to illuminate the sky.
-   * Set the **Location** of the atmospheric fog to **0, 0, 300** to have the fog source hover above the level origin.
+   * Set the **Location** of the atmospheric fog to **[0, 0, 300]** to have the fog source hover above the level origin.
 
 6. **Sun lighting**
    * Currently, the sun is seen to be lying on the horizon in the distance.
@@ -39,7 +39,7 @@ Some core elements are generally required when creating a new level. These inclu
 7. **Reflection capture**
    * A realistic reflection profile needs to be present within the level.
    * Add a **Sphere Reflection Capture** from the *Modes* panel.
-   * Set the **Location** to **0, 0, 500** to hover the reflection capture above the level origin.
+   * Set the **Location** to **[0, 0, 500]** to hover the reflection capture above the level origin.
    * Select the **Build** dropdown then select **Build Reflection Captures**.
 
 8. **Mesh addition**
