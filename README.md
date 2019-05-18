@@ -10,4 +10,4 @@ A broad repo ranging from high-level concept explanations down to useful shortcu
 *  [Adding content to a project](Content/Basics/AddingContentToAProject.md)
 *  [Level creation](Content/Basics/LevelCreation.md)
 *  [Improved scene lighting](Content/Basics/ImprovedSceneLighting.md)
-*  [Actor light sources](COntent/Basics/ActorLightSources.md)
+*  [Actor light sources](Content/Basics/ActorLightSources.md)
