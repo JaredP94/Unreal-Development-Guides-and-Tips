@@ -43,3 +43,23 @@ A summarised guide on optimal settings and best practices used in the creation o
    * This is used to apply a resolution of the texture which is better suited to the render size of the object, rather than incurred the memory cost of rendering the full resolution texture where the full detail cannot be told apart from the scaled down variant.
 
 7. **Importing Textures**
+   * There are two ways of importing textures into Unreal, namely the **Drag and Drop** and **Import** methods.
+   * The **Drag and Drop** method simply requires a texture to be dragged into the *Content Browser* from a *Windows Explorer Window*. The import is automatically handled.
+   * The **Import** method requires the **Import** button in the *Content Browser* to be selected. This opens a *Windows Explorer Window* to navigate to and select the required texture.
+   * Unreal will assess the file name of the texture to decide the appropriate type of texture being imported (refer to this [Naming Convention Guide](https://github.com/Allar/ue4-style-guide#anc)).
+
+8. **Texture Groups**
+   * These groups serve to manage how textures are used and displayed within a project. Each group determines the size at which the texture will be drawn within the project, how the texture is minified or magnified and what type of filtering is applied to the texture.
+   * Thus it is imperative that correct group assignment of each texture is performed.
+   * Group assignment is done by changing the **Texture Group** property of the **Level Of Detail** section in the *Details* pane of the texture.
+   * Such an example of a defined texture group configuration:  
+        ```cpp
+        TEXTUREGROUP_World=(MinLODSize=1,MaxLODSize=8192,LODBias=1,MinMagFilter=aniso,MipFilter=point)
+        ```
+
+9. **Texture Compression**
+    * Texture compression can be adjusted at any time in the editor.
+    * Open the target texture from the *Content Browser*.
+    * Select the desired **Compression Settings** type under the **Compression** section in the *Details* pane of the texture.
+    * Refer to this [Texture Compression Document](https://docs.unrealengine.com/en-us/Editor/Content/Types/Textures/TextureCompressionSettings) for information on each type of texture compression.
+    * Certain types of compression will require the **Compress Without Alpha** property to be set. Consult the above document to determine the required configuraton.
