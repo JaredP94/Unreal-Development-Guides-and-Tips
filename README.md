@@ -20,6 +20,7 @@ Short guides/tricks on creating a level with aesthetically pleasing elements and
 Concepts/guides on cross-platform performance. Strong focus on optimisation and performance considerations in projects in conjunction with best practices. Covers a range of areas including Textures, Meshes, Materials, Texture Streaming, LODs, Lighting, Volumes and Reflections.
 
 *  [Textures](Content/DevPipelines/Textures.md)
+*  [Static meshes](Content/DevPipelines/StaticMeshes.md)
 
 ## References
 * [Unreal Documentation](https://docs.unrealengine.com/)
