@@ -21,6 +21,7 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 
 *  [Textures](Content/DevPipelines/Textures.md)
 *  [Static meshes](Content/DevPipelines/StaticMeshes.md)
+*  [Importing and exporting](Content/DevPipelines/ImportingAndExporting.md)
 
 ## References
 * [Unreal Documentation](https://docs.unrealengine.com/)

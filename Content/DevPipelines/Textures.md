@@ -43,6 +43,7 @@ A summarised guide on optimal settings and best practices used in the creation o
    * This is used to apply a resolution of the texture which is better suited to the render size of the object, rather than incurred the memory cost of rendering the full resolution texture where the full detail cannot be told apart from the scaled down variant.
 
 7. **Importing Textures**
+   <a name="importing-textures"></a>
    * There are two ways of importing textures into Unreal, namely the **Drag and Drop** and **Import** methods.
    * The **Drag and Drop** method simply requires a texture to be dragged into the *Content Browser* from a *Windows Explorer Window*. The import is automatically handled.
    * The **Import** method requires the **Import** button in the *Content Browser* to be selected. This opens a *Windows Explorer Window* to navigate to and select the required texture.
