@@ -25,6 +25,10 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 *  [Materials I: Basics](Content/DevPipelines/MaterialsI.md)
 *  [Materials II: Master materials and material functions](Content/DevPipelines/MaterialsII.md)
 
+## Interesting Resources
+
+* [Unreal Fest 2019 Presentations + Slides](https://www.unrealengine.com/en-US/events/unreal-fest-europe-2019)
+
 ## References
 * [Unreal Documentation](https://docs.unrealengine.com/)
 * [Unreal Academy](https://academy.unrealengine.com/)
