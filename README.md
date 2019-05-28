@@ -27,6 +27,7 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 
 ## Interesting Resources
 
+* [Unreal Fest 2018 Presentations + Slides](https://www.unrealengine.com/en-US/events/unreal-fest-europe-2018)
 * [Unreal Fest 2019 Presentations + Slides](https://www.unrealengine.com/en-US/events/unreal-fest-europe-2019)
 
 ## References
