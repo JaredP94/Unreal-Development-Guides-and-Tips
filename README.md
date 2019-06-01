@@ -24,6 +24,7 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 *  [Importing and exporting](Content/DevPipelines/ImportingAndExporting.md)
 *  [Materials I: Basics](Content/DevPipelines/MaterialsI.md)
 *  [Materials II: Master materials and material functions](Content/DevPipelines/MaterialsII.md)
+*  [Materials III: Material instances](Content/DevPipelines/MaterialsIII.md)
 
 ## Interesting Resources
 
