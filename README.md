@@ -23,6 +23,7 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 *  [Texture streaming](Content/DevPipelines/TextureStreaming.md)
 *  [Static meshes](Content/DevPipelines/StaticMeshes.md)
 *  [Importing and exporting](Content/DevPipelines/ImportingAndExporting.md)
+*  [Levels of detail (LODs) and Static mesh merging](Content/DevPipelines/LODsAndMeshMerge.md)
 *  [Materials I: Basics](Content/DevPipelines/MaterialsI.md)
 *  [Materials II: Master materials and material functions](Content/DevPipelines/MaterialsII.md)
 *  [Materials III: Material instances](Content/DevPipelines/MaterialsIII.md)
