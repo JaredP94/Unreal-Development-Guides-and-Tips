@@ -1,6 +1,6 @@
 # Unreal-Development-Guides-and-Tips
 
-A broad repo ranging from high-level concept explanations down to useful shortcuts that aim to improve your Unreal Engine 4 development journey.
+High-level concept explanations down to useful shortcuts that aim to improve your Unreal Engine 4 development journey.
 
 Built with the community in mind. Hopefully to become a centralised knowledge base which will compliment official documentation as well as help developers which may run into issues that others have already solved.
 
