@@ -8,7 +8,7 @@ Built with the community in mind. Goal is to become a centralised knowledge base
 
 ## Content Directory
 
-### The Basics
+### Basic Scene Creation
 Short guides/tricks on creating a level with aesthetically pleasing elements and lighting. Introduces dynamic light and actor light sources. Also considers pre-made content imports for quick starting.
 
 *  [Adding content to a project](Content/Basics/AddingContentToAProject.md)
