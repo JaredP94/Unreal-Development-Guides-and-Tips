@@ -13,3 +13,23 @@ A summarised guide on more advanced LOD concepts and practices, benefits and use
    * Maintaining a minimum level of detail is achievable through enabling the **Override Min LOD** option and entering a **Min LOD** value under the **Rendering** section of the *Details pane* after the target mesh has been selected. This ensures that no further reduction occurs once the minimum specified LOD is loaded.
 
 2. **Merge Actor Tool**
+   * This tool facilitates the ability to merge background objects together in order to reduce their **draw call** and **material count**. This is done by merging the static meshes and materials into a singular mesh and material respectively, thus reducing the memory consumption and rendering cost. The result is almost indistinguishable as the triangle count remains unchanged (in most cases), preserving the visual fidelity.
+   * Within the UE4 editor, select all the static meshes from the **World Outliner** pane which are to be merged. Then access the merge tool by navigating to **Window -> Developer Tools -> Merge Actors**.
+   * A window will then appear which allows for the selected meshes to be confirmed along with a range of settings for the resultant merged mesh.
+   * Noteworthy **Mesh Settings**:
+     * Enabling the **Pivot Point at Zero** setting sets the pivot point of the merged mesh to **[0, 0, 0]**. Hence when dragging the merged mesh into the world and setting its **transform** to **[0, 0, 0]**, it will be placed in the exact location of the meshes before they were merged.
+     * Setting the **LODSelection Type** option to **Use specific LOD level** allows for a specific LOD level to be used. It is advisable to select the **base LOD level (0)** which preserves the highest quality of the merged mesh. Further LODs can then be generated on the merged mesh thereafter if required.
+   * Noteworthy **Material Settings**:
+     * Enabling the **Merge Materials** setting allows for all mesh materials to be combined into a singular material. This option is enabled by default when setting the **LODSelection Type** option to **Use all LOD levels**.
+     * Adjusting the **Texture Size** setting determines the resulting texture size of the merged materials, which yields a performance gain. It is advisable to not reduce the size to below **1024 x 1024** unless the result is a very small mesh or very far away.
+     * Ensure the **Blend Mode** option is configured to the type of materials which are being used in the meshes (i.e masked material).
+   * Noteworthy **Landscape Culling** settings:
+     * Enabling the **Use Landscape Culling** setting allows for any triangles which intersect with the landscape to be culled, which yields a performance gain.
+   * Enabling the **Replace Source Actors** setting will result in any selected actors being replaced by the mesh that results from the merge.
+   * Once the merge has completed, the selected meshes can be deleted and the merged mesh can be dragged into the scene. It should position itself in the same position after the mesh **transform** has been reset.
+
+3. **Hierarchical Level of Detail Tool**
+   * This tool blends the idea of LODs and the mesh merge tool. When an HLOD is applied, at a certain viewing distance, groups of meshes will be merged with  results containing a few materials rather than all the original materials. Furthermore, an automatic LOD will be applied based on the distance of the mesh.
+   * To enable the HLOD tool, enable the **Enable Hierarchical LOD** option under the **LODSystem** section of the *World Settings* pane. Properties under the **Hierarchical LODSetup** setting should automatically be generated.
+   * Open the HLOD tool by navigating to **Window -> Hierarchical LOD Outliner**.
+   * Select the **Generate Clustors** button to create clusters to encapsulate groups of meshes within the scene. These will be generated with a default **Desired Bound Radius** which can be modified under the **Cluster Generation settings** section of the **HLOD Level**. 
