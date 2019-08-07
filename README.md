@@ -28,6 +28,7 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 *  [Materials II: Master materials and Material functions](Content/DevPipelines/MaterialsII.md)
 *  [Materials III: Material instances](Content/DevPipelines/MaterialsIII.md)
 *  [Materials IV: Vertex animation materials](Content/DevPipelines/MaterialsIV.md)
+*  [Light, Shadow, and Post Process](Content/DevPipelines/LightShadowPostProcess.md)
 
 ## Interesting Resources
 
