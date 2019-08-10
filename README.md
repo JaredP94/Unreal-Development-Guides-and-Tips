@@ -38,3 +38,4 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 ## References
 * [Unreal Documentation](https://docs.unrealengine.com/)
 * [Unreal Academy](https://academy.unrealengine.com/)
+* [Unreal Wiki](https://wiki.unrealengine.com) (Lacks support for recent engine versions)
