@@ -15,7 +15,7 @@ A summarised guide on how these components can dramatically affect performance, 
      * **High** -  looks good, takes some time **[pre-shipping]**.
      * **Production** - looks great, takes a long time **[shipping]**.
 
-2. **Shadowing**
+2. **Shadowing [WIP]**
    * Since there is no perfect method for shadowing, ue4 offers a variety of shadowing methods to cater for various cases such as large objects in the scene versus small surface detail.
    * Ue4 offers two main shadow types:
      * **Static**:
@@ -30,3 +30,8 @@ A summarised guide on how these components can dramatically affect performance, 
      * **Cascaded** - divides the view frustum into a series of distance-based shadow cascades, each of which with steadily lower resolution as you move farther from the camera. Beyond the range of the **Dynamic Shadow Distance** property, the system blends back into static baked shadows.
      * **Distance Field** - enables you to shadow at farther distances than traditional Cascaded Shadow Maps (CSM) with a directional light.
      * **Contact** - a great way to improve the visual depth and fidelity of your scene because they provide a more accurate approximation of shadowing, allowing you to add a contoured shadow that might not be achieved with other shadowing algorithms.
+
+1. **Post Process**
+   * This is an area which eats up a large amount of performance. Post process effects are created by placing a **post process volume** in the scene (locatable within the *Modes pane*).
+   * Enabling the **Unbound** setting under the **Post Process Volume Settings** section within the *Details pane* of the volume allows for this volume to manage all post process effects within the scene and ensures they are visible throughout the world.
+   * Since the post process volume offers such a vast range of effects, the best approach is to pay close attention to the scene **frames per second (fps)** as each setting is enabled. Attempt to achieve the ideal aesthetic with a minimal number of post process effects to maximise the scene performance.
