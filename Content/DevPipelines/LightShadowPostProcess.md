@@ -31,7 +31,7 @@ A summarised guide on how these components can dramatically affect performance, 
      * **Distance Field** - enables you to shadow at farther distances than traditional Cascaded Shadow Maps (CSM) with a directional light.
      * **Contact** - a great way to improve the visual depth and fidelity of your scene because they provide a more accurate approximation of shadowing, allowing you to add a contoured shadow that might not be achieved with other shadowing algorithms.
 
-1. **Post Process**
+3. **Post Process**
    * This is an area which eats up a large amount of performance. Post process effects are created by placing a **post process volume** in the scene (locatable within the *Modes pane*).
    * Enabling the **Unbound** setting under the **Post Process Volume Settings** section within the *Details pane* of the volume allows for this volume to manage all post process effects within the scene and ensures they are visible throughout the world.
    * Since the post process volume offers such a vast range of effects, the best approach is to pay close attention to the scene **frames per second (fps)** as each setting is enabled. Attempt to achieve the ideal aesthetic with a minimal number of post process effects to maximise the scene performance.
