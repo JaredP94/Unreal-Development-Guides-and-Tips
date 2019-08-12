@@ -1,14 +1,14 @@
-### Materials IV: Vertex Animation Materials
+# Materials IV: Vertex Animation Materials
 
 A summarised guide on vertex animation concepts, performance considerations and use cases along with an example of creating a vertex animation material.
 
-1. **Vertex Animations**
+## Vertex Animations
    * These are used to cheaply convey subtle movement for complex objects (i.e foliage, water, cloth, etc).
    * The animations are rendered by the GPU as vertices are continuously being slightly offset within a given mesh.
    * The downside to this is that physics interactions are not entirely accurate since the CPU calculates the interaction without knowledge of the offsets which are occurring.
    * Thus vertex animation should be used a secondary line of animation in cases such as added perceived realism within level scenery where interactivity is not required.
 
-2. **Vertex Animation Foliage Configuration**
+## Vertex Animation Foliage Configuration
    * Consider the case where a tree needs to be animated using vertex animation. Two materials are used within the tree mesh, namely a material for the trunk and a material for the foliage component. The latter will then use vertex animation whilst the former will not.
    * Create a new material which will be used for the vertex animation. Ensure the material is prefixed with **M_VT** to indicate it is a vertex animation material.
    * Open the material viewer for the newly created material.

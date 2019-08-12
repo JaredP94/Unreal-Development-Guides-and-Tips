@@ -1,8 +1,8 @@
-### Levels of Detail (LODs) and Static Mesh Merging
+# Levels of Detail (LODs) and Static Mesh Merging
 
 A summarised guide on more advanced LOD concepts and practices, benefits and use of the merge actor tool as well as the benefits of using Hierarchical Level of Detail (HLOD) for distance scaling.
 
-1. **UE4 Automatic LOD Creation Tools**
+## UE4 Automatic LOD Creation Tools
    * As mentioned in the [Static meshes](StaticMeshes.md) section, LODs can be created for meshes before they are imported into UE4. However, should you opt not to create the LODs or the application not support LODs, UE4 offers a range of tools to facilitate automatic LOD creation.
    * Within the static mesh viewer, when selecting an **LOD Group** under the **LOD Settings** section of the *Details pane*, the **BaseEngine.ini** file is parsed to determine the number of LODs required along with other LOD settings which can be configured in the *Details pane*.
    * Configuring the **Reduction Settings** within the **LOD[number] (i.e LOD1)** section of the *Details pane* determines what graphical fidelity is prioritised as each LOD is generated (i.e Preserve silhouettes, triangles, textures, etc.).
@@ -12,7 +12,7 @@ A summarised guide on more advanced LOD concepts and practices, benefits and use
    * To force a specific LOD to always be rendered on a mesh, simply enter the **LOD number** in the **Forced LOD Mode** field under the **Rendering** section of the *Details pane* after the target mesh has been selected.
    * Maintaining a minimum level of detail is achievable through enabling the **Override Min LOD** option and entering a **Min LOD** value under the **Rendering** section of the *Details pane* after the target mesh has been selected. This ensures that no further reduction occurs once the minimum specified LOD is loaded.
 
-2. **Merge Actor Tool**
+## Merge Actor Tool
    * This tool facilitates the ability to merge background objects together in order to reduce their **draw call** and **material count**. This is done by merging the static meshes and materials into a singular mesh and material respectively, thus reducing the memory consumption and rendering cost. The result is almost indistinguishable as the triangle count remains unchanged (in most cases), preserving the visual fidelity.
    * Within the UE4 editor, select all the static meshes from the **World Outliner** pane which are to be merged. Then access the merge tool by navigating to **Window -> Developer Tools -> Merge Actors**.
    * A window will then appear which allows for the selected meshes to be confirmed along with a range of settings for the resultant merged mesh.
@@ -28,7 +28,7 @@ A summarised guide on more advanced LOD concepts and practices, benefits and use
    * Enabling the **Replace Source Actors** setting will result in any selected actors being replaced by the mesh that results from the merge.
    * Once the merge has completed, the selected meshes can be deleted and the merged mesh can be dragged into the scene. It should position itself in the same position after the mesh **transform** has been reset.
 
-3. **Hierarchical Level of Detail Tool**
+## Hierarchical Level of Detail Tool
    * This tool blends the idea of LODs and the mesh merge tool. When an HLOD is applied, at a certain viewing distance, groups of meshes will be merged with  results containing a few materials rather than all the original materials. Furthermore, an automatic LOD will be applied based on the distance of the mesh.
    * To enable the HLOD tool, enable the **Enable Hierarchical LOD** option under the **LODSystem** section of the *World Settings* pane. Properties under the **Hierarchical LODSetup** setting should automatically be generated.
    * Open the HLOD tool by navigating to **Window -> Hierarchical LOD Outliner**.
