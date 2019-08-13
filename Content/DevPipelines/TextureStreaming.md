@@ -14,7 +14,8 @@ A summarised guide on the concepts of texture streaming, increasing the texture 
         ```cpp
         r.Streaming.PoolSize = [DesiredSizeInMB]
         ```
-    * The second method entails editing the **DefaultEngine.ini** file which is a more permanent solution if the issue is reoccurring. Within the file locate the **[/Script/Engine.RendererSettings]** section and add the line:
+        
+   * The second method entails editing the **DefaultEngine.ini** file which is a more permanent solution if the issue is reoccurring. Within the file locate the **[/Script/Engine.RendererSettings]** section and add the line:
         ```cpp
         r.Streaming.PoolSize = [DesiredSizeInMB]
         ```
