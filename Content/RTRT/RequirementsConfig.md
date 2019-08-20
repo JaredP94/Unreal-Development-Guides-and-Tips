@@ -5,6 +5,7 @@ A summarised guide on the hardware and software requirements for using ray-traci
 ## Hardware Requirements
 * A ray-tracing supported GPU is required to make use of the RTRT features in ue4.
 * At the current time of writing, these GPUs are only offered by NVIDIA which include the following:
+    
     | **Turing Architecture** | **Volta Architecture** | **Pascal Architecture** |
     |-------------------------|------------------------|-------------------------|
     |Titan RTX                |Titan V                 |Titan XP                 |
@@ -15,6 +16,7 @@ A summarised guide on the hardware and software requirements for using ray-traci
     |GTX 1660 Ti              |                        |GTX 1070                 |
     |GTX 1660                 |                        |GTX 1060 (6GB edition)   |
 * It should be noted that not all supported GPUs are capable of supporting the full set of RTRT features:
+    
     | **RTX Products**        | **Non-RTX Products** |
     |-------------------------|------------------------|
     |High ray count           |Low ray count           |
