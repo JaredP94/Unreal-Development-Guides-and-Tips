@@ -6,8 +6,11 @@ A summarised guide on creating ray-traced shadows and how to tweak their softnes
 * These simulate soft area lighting effects for objects in the environment. This means that based on the light’s source size or source angle, an object’s shadow will have sharper shadows near the contact surface than farther away where it softens and widens.
 
 * Shadows can be cast by any light source. This is activated by **Enabling** the **Cast Raytraced Shadow** property under the **Light** section in the *Details pane*. Each type of light source then needs to be configured in the following ways:
+  
   * **Directional Light**: modify the **Source Angle** property.
+
   * **Point** and **Spot Lights**: modify the **Source Radius** property.
+  
   * **Rect Light**: modify the **Barn Door Angle** and **Barn Door Length** to shape and soften the shadow softness.
 
 * Each configured property will control the softness observed in cast shadows. A higher value translates to a softer shadow.
