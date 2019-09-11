@@ -36,6 +36,7 @@ Concepts/guides on cross-platform performance. Strong focus on optimisation and 
 Concepts/guides on using how to make use of RTRT. Covers the hardware requirements to use the feature, basic discussion of each ray tracing component and how to implement each component in UE4. Furthermore, some additional command line features are mentioned and useful RTRT development tips.
 
 * [Requirements and Configuration](Content/RTRT/RequirementsConfig.md)
+* [Ray-Traced Shadows and Post Process Volume](Content/RTRT/ShadowsPostProcess.md)
 
 ## Interesting Resources
 
