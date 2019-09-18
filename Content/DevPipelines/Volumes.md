@@ -3,7 +3,7 @@
 A summarised guide on what volumes are and how to make use of Lightmass volumes as well as Cull Distance volumes.
 
 ## Brief Intro to Volumes
-   * Volumes are specific actors which can be played into a scene to determine a range of interaction factors ranging including controlling the player movement area, affecting how sound will reverberate and affecting lighting or visibility.
+   * Volumes are specific actors which can be placed into a scene to determine a range of interaction factors ranging including controlling the player movement area, affecting how sound will reverberate and affecting lighting or visibility.
    * Ue4 offers a wide range of volumes which can be located within the *Modes pane* (full range of volume types can be found [here](https://docs.unrealengine.com/en-US/Engine/Actors/Volumes/index.html)).
    * Lightmass and Cull Distance volumes are a highly featured volume within ue4 and thus their usage should be optimal where possible.
 
