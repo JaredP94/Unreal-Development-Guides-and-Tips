@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    font: 15px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
