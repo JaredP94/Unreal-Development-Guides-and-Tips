@@ -1,8 +1,8 @@
 # Unreal-Development-Guides-and-Tips
 
-High-level concept explanations down to useful shortcuts that aim to improve your Unreal Engine 4 development journey.
+High-level concept explanations, detailed tutorials, performance considerations, shortcuts and other useful content that aims to improve your Unreal Engine 4 development journey.
 
-Built with the community in mind. Goal is to become a centralised knowledge base which will compliment official documentation as well as help developers whom may run into issues that others have already solved.
+Built with the community in mind. The end goal is to become a centralised knowledge base which will compliment official documentation as well as help a range of developers, whether just starting out or seasoned veterans experimenting with new features.
 
 **Be sure to bookmark as updates are ongoing <(^_^<)**
 
