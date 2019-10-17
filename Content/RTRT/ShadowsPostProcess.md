@@ -21,6 +21,7 @@ A summarised guide on creating ray-traced shadows and how to tweak their softnes
 * The image below highlights all the available ray tracing and path tracing properties which can be customised within the volume:
 
   ![Post Process Volume Settings](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/PPV_Settings.jpg)
+  *Image 1: Post Process Volume settings*
 
 * The post process volume can be placed into the scene by dragging it in from the *Modes pane*.
 
