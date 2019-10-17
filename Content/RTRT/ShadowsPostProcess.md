@@ -3,7 +3,13 @@
 A summarised guide on creating ray-traced shadows and how to tweak their softness for realistic content. As well as the use of the post process volume and the respective ray tracing and path tracing features it can offer and control.
 
 ## Ray-Traced Shadows
-* These simulate soft area lighting effects for objects in the environment. This means that based on the light’s source size or source angle, an object’s shadow will have sharper shadows near the contact surface than farther away where it softens and widens.
+* These simulate soft area lighting effects for objects in the environment. This means that based on the light’s source size or source angle, an object’s shadow will have sharper shadows near the contact surface than farther away where it softens and widens. This can be noted in the comparison below:
+
+    ![Raster Shadows using Shadowmaps](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_Shadows_Disabled-3.jpg)
+    *Image 1: Scene rendered with Raster Shadows using Shadowmaps*
+
+    ![Ray-Traced Soft Shadows](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_Shadows_Enabled-3.jpg)
+    *Image 2: Scene rendered with Ray-Traced Soft Shadows*
 
 * Shadows can be cast by any light source. This is activated by **Enabling** the **Cast Raytraced Shadow** property under the **Light** section in the *Details pane*. Each type of light source then needs to be configured in the following ways:
   
@@ -21,7 +27,7 @@ A summarised guide on creating ray-traced shadows and how to tweak their softnes
 * The image below highlights all the available ray tracing and path tracing properties which can be customised within the volume:
 
   ![Post Process Volume Settings](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/PPV_Settings.jpg)
-  *Image 1: Post Process Volume settings*
+  *Image 3: Post Process Volume settings*
 
 * The post process volume can be placed into the scene by dragging it in from the *Modes pane*.
 
