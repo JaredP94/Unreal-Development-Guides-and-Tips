@@ -27,6 +27,9 @@ A summarised guide on utilising ray-traced reflections to capture dynamic reflec
   * **Samples Per Pixel**: Sets the number of samples to use per pixel for Ray Traced Reflections. Additional samples decrease performance while increasing quality and accuracy. Set to **1** sample per pixel by default.
 
   * **Shadows**: Sets how shadows should be reflected. Choose between:
+
     * **Hard Shadows** which has no soft shadows
+
     * **Area Shadows** to have soft shadowing like Ray Traced shadows
+
     * **Disable** to disable shadowing in Ray Traced Reflections
