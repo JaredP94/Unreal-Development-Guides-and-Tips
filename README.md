@@ -38,6 +38,7 @@ Concepts/guides on using how to make use of RTRT. Covers the hardware requiremen
 * [Requirements and Configuration](Content/RTRT/RequirementsConfig.md)
 * [Ray-Traced Shadows and Post Process Volume](Content/RTRT/ShadowsPostProcess.md)
 * [Ray-Traced Reflections](Content/RTRT/Reflections.md)
+* [Ray-Traced Translucency](Content/RTRT/Translucency.md)
 
 ## Interesting Resources
 
