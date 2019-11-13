@@ -1,6 +1,6 @@
 # Ray-Traced Reflections
 
-A summarised guide on utilising ray-traced reflections to capture dynamic reflections which are sourced out of the camera view for an accurately simulated environment. As well as performance optimisations including roughness control, distance limiting, number of bounces, samples per pixel, reflection shadows and the reflection denoiser.
+A summarised guide on utilising ray-traced reflections to capture dynamic reflections which are sourced out of the camera view for an accurately simulated environment. Performance optimisations will be presented which includes roughness control, distance limiting, number of bounces, samples per pixel, and shadow control.
 
 ## Realistic Reflections
 * Ray-traced reflections simulate accurate environment reflections that can support multiple bounces to create inter-reflection for reflective surfaces. 
