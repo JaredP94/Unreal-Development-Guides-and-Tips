@@ -13,7 +13,7 @@ A summarised guide on utilising ray-traced translucency to accurately represent 
     ![Ray-Traced Translucency](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_Translucency_Enabled.jpg)
     *Image 2: Scene rendered with Ray-Traced Translucency*
 
-* These can be enabled by **ticking** the **Type** box and setting the dropdown to **Ray Tracing** under the **Translucency** settings of the **Post Process Volume** in the *Details pane*.
+* This can be enabled by **ticking** the **Type** box and setting the dropdown to **Ray Tracing** under the **Translucency** settings of the **Post Process Volume** in the *Details pane*.
   
 * The performance trade-off is less than that of ray-traced reflections but it is still important to manage the performance cost. Key optimisations exist to find a balance between accuracy and performance.
 
