@@ -20,16 +20,16 @@ A summarised guide on utilising ray-traced reflections to capture dynamic reflec
 ## Optimisation
 * There are a multitude of settings which help balance the quality versus performance of ray-traced reflections. The exact value of each setting will depend on the requirements and components of your scene. These settings are found under the **Ray Tracing Reflections** section of the **Post Process Volume** in the *Details pane*:
 
-  * **Max Roughness**: Sets the maximum roughness value that Ray Traced Reflections will be visible before falling back to raster methods that are less expensive. Reflection contribution is smoothly faded when close to the roughness threshold and this parameter behaves similarly to SSR’s **Max Roughness** setting. Lower values fall back to other methods more quickly. Scene roughness can be viewed by selecting the **Roughness** option under the **Buffer Visualization** settings of the editor *View Mode*.
+  * **Max Roughness**: Sets the maximum roughness value that ray-traced reflections will be visible before falling back to raster methods that are less expensive. Reflection contribution is smoothly faded when close to the roughness threshold and this parameter behaves similarly to SSR’s **Max Roughness** setting. Lower values fall back to other methods more quickly. Scene roughness can be viewed by selecting the **Roughness** option under the **Buffer Visualization** settings of the editor *View Mode*.
 
-  * **Max Bounces**: Sets the maximum number of bounces that Ray Traced Reflections uses. More bounces create inter-reflection but comes at a higher cost. Set to **1** bounce by default.
+  * **Max Bounces**: Sets the maximum number of bounces that ray-traced reflections uses. More bounces create inter-reflection but comes at a higher cost. Set to **1** bounce by default.
 
-  * **Samples Per Pixel**: Sets the number of samples to use per pixel for Ray Traced Reflections. Additional samples decrease performance while increasing quality and accuracy. Set to **1** sample per pixel by default.
+  * **Samples Per Pixel**: Sets the number of samples to use per pixel for ray-traced reflections. Additional samples decrease performance while increasing quality and accuracy. Set to **1** sample per pixel by default.
 
   * **Shadows**: Sets how shadows should be reflected. Choose between:
 
     * **Hard Shadows** which has no soft shadows
 
-    * **Area Shadows** to have soft shadowing like Ray Traced shadows
+    * **Area Shadows** to have soft shadowing like ray-traced shadows
 
-    * **Disable** to disable shadowing in Ray Traced Reflections
+    * **Disable** to disable shadowing in ray-traced reflections
