@@ -5,7 +5,7 @@ A summarised guide on utilising ray-traced translucency to accurately represent 
 ## Realistic Reflections
 * Ray-traced reflections simulate accurate environment reflections that can support multiple bounces to create inter-reflection for reflective surfaces. 
 
-* This provides a physically realistic representation of refraction within a scene. These differences are easily noted in the comparison below:
+* This provides a physically realistic representation of reflection, absorption, and refraction properties for transparent surfaces within a scene. These differences are easily noted in the comparison below:
   
     ![Raster Translucency](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_Translucency_Disabled.jpg)
     *Image 1: Scene rendered with Raster Translucency*
