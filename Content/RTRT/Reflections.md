@@ -18,7 +18,7 @@ A summarised guide on utilising ray-traced reflections to capture dynamic reflec
 * Due to the reflection simulation not being limited to what is within the camera view, the computational cost is exceptionally high depending on the number of reflections to compute. Key optimisations exist to find a balance between accuracy and performance.
 
 ## Optimisation
-* There are a multitude of settings which help balance the quality versus performance of ray-traced reflections. The exact value of each setting will depend on the requirements and components of your scene. These settings are found under the **Ray Tracking Reflections** section of the **Post Process Volume** in the *Details pane*:
+* There are a multitude of settings which help balance the quality versus performance of ray-traced reflections. The exact value of each setting will depend on the requirements and components of your scene. These settings are found under the **Ray Tracing Reflections** section of the **Post Process Volume** in the *Details pane*:
 
   * **Max Roughness**: Sets the maximum roughness value that Ray Traced Reflections will be visible before falling back to raster methods that are less expensive. Reflection contribution is smoothly faded when close to the roughness threshold and this parameter behaves similarly to SSR’s **Max Roughness** setting. Lower values fall back to other methods more quickly. Scene roughness can be viewed by selecting the **Roughness** option under the **Buffer Visualization** settings of the editor *View Mode*.
 
