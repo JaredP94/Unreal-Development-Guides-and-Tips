@@ -39,3 +39,48 @@ A summarised guide on the hardware and software requirements for using ray-traci
   * If the **Support Compute Skincache** setting is not enabled, a dialogue will appear prompting confirmation for the setting to be enabled - click **Yes**.
   
   * Restart ue4 to effect the configured settings.
+
+## Engine Changelog
+* This section summarises any general ray-tracing improvements/modifications as new engine versions are made available.
+  
+* **UE 4.22**: 
+  
+  **Added ray tracing low level support.**
+  * Implemented a low level layer on top of UE DirectX 12 that provides support for DXR and allows creating and using ray tracing shaders (ray generation shaders, hit shaders, etc) to add ray tracing effects.
+  
+  **Added high level ray tracing features.**
+  * Rect area lights
+  
+  * Soft shadows
+  
+  * Reflections
+  
+  * Reflected shadows
+  
+  * Ambient occlusion
+  
+  * RTGI (ray traced global illumination)
+  
+  * Translucency
+  
+  * Clearcoat
+  
+  * IBL
+  
+  * Sky
+  
+  * Geometry types
+  
+  * Texture LOD
+  
+  * Denoiser
+  
+  * Path tracer
+
+* **UE 4.23**:
+  
+  Ray Tracing support has received many optimizations and stability improvements in addition to several important new features, including performance and stability enhancements, additional geometry and material support, and multi-bounce reflection fallback.
+
+* **UE 4.24**:
+  
+  Stability and performance improvements, including support for static meshes that use vertex animation.
