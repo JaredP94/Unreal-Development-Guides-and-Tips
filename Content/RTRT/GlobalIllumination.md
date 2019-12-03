@@ -23,3 +23,9 @@ A summarised guide on utilising ray-traced global illumination to add real-time 
   * **Max Bounces**: Sets the maximum number of bounces of light that will be used by RTGI. Increased number of bounces translates to a more realistic scene but yield becomes exponentially more expensive. Set to **1** bounce by default.
 
   * **Samples Per Pixel**: Sets the number of samples to use per pixel for RTGI. Additional samples decrease performance while increasing quality and accuracy. Set to **1** sample per pixel by default.
+
+* **UE4 4.24 (experimental)**: A more efficient method of RTGI has been introduced. This can be enabled by using the command:
+  ```
+  r.RayTracing.GlobalIllumination.EnableFinalGather 1
+  ```
+  Additionally, the **Samples Per Pixel** setting should be set to **8**.
