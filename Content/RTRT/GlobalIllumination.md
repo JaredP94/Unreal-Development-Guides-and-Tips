@@ -3,7 +3,7 @@
 A summarised guide on utilising ray-traced global illumination to add real-time light interaction within the scene. As well as performance optimisations including max bounce control and samples per pixel.
 
 ## Real-time interaction
-* Ray-traced global illumination (RTGI) facililates real-time interactive bounce lighting to areas not directly lit by a given light source. This provides real-time shadow casting and dynamic material interaction for a truly realistic scene.
+* Ray-traced global illumination (RTGI) facilitates real-time interactive bounce lighting to areas not directly lit by a given light source. This provides real-time shadow casting and dynamic material interaction for a truly realistic scene.
 
 * When compared with a Sky Light, RTGI prevents the harshly contrasted light within scenes and facilitates a truly dynamic lighting system. These differences are easily noted in the comparison below:
   
