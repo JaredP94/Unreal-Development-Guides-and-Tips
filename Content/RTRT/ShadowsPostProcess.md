@@ -11,7 +11,7 @@ A summarised guide on creating ray-traced shadows and how to tweak their softnes
     ![Ray-Traced Soft Shadows](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_Shadows_Enabled-3.jpg)
     *Image 2: Scene rendered with Ray-Traced Soft Shadows*
 
-* Shadows can be cast by any light source. This is activated by **Enabling** the **Cast Raytraced Shadow** property under the **Light** section in the *Details pane*. Each type of light source then needs to be configured in the following ways:
+* Shadows can be cast by any light source. This is activated by **Enabling** the **Cast Raytraced Shadow** property under the **Light** section in the *Details pane*. Each type of light source then needs to be configured, to control the softness of the cast shadow, in the following ways:
   
   * **Directional Light**: modify the **Source Angle** property.
 
