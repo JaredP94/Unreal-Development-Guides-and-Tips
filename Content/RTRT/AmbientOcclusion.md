@@ -20,7 +20,13 @@ A summarised guide on utilising ray-traced ambient occlusion to accurately repre
 ## Optimisation
 * There are a multitude of settings which help balance the quality versus performance of RTAO. The exact value of each setting will depend on the requirements and components of your scene. These settings are found under the **Ambient Occlusion** and **Ray Tracing Ambient Occlusion** sections of the **Post Process Volume** in the *Details pane*:
 
-  * **Intensity**: Defines how much ambient occlusion affects non-direct lighting for RTAO. Lower values decrease the effect while higher values increase how strong the effect is.
+  * **Intensity**: Defines how much ambient occlusion affects non-direct lighting for RTAO. Lower values decrease the effect while higher values increase how strong the effect is. These differences are easily noted in the comparison below:
+  
+    ![Ray-Traced Ambient Occlusion Intensity 0.75](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RTAO_75.jpg)
+    *Image 3: Scene rendered with Ray-Traced Ambient Occlusion Intensity value of 0.75*
+
+    ![Ray-Traced Ambient Occlusion Intensity 1.00](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RTAO_100.jpg)
+    *Image 4: Scene rendered with Ray-Traced Ambient Occlusion Intensity value of 1.00*
 
   * **Radius**: Controls the distance in Unreal Units that ambient occlusion affects.
 
