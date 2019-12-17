@@ -55,3 +55,19 @@ A summarised guide on using performance analysis and debugging tools within RTRT
     ```
 
     where a **DesiredState** value of **0** and **1** will disable and enable all ray-tracing effects respectively.
+
+## Material Management
+* Complex Materials can affect performance of ray-tracing features. To test performance impact, press the **Backtick key** to open the console and then input the following command:
+  
+    ```
+    r.RayTracing.EnableMaterials
+    ```
+
+* Use the **Cast Ray Traced Shadows** checkbox to set whether this material casts ray-traced shadows. This is useful for controlling specific elements of your materials assigned to geometry that should or should not cast a ray-traced shadow.
+
+* Use the **Ray Tracing Quality Switch Replace Node** to replace entire parts of your material logic to lower the cost of features like RTGI, RT Reflections, and RT Translucency with less complex logic. This is a global change that affects all ray-tracing effects. 
+  
+    Below is an example where the **Normal** logic path renders as seen in the scene. The **Ray Tracing** path uses less complex logic for effects in Ray-Tracing, such as RTGI and Reflections where textures, normals, and roughness can be come an expensive added cost.
+
+    ![Ray Tracing Quality Switch Replace Node Example](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_MaterialQualitySwitch.png)
+    *Image 6: Ray Tracing Quality Switch Replace Node Example*
