@@ -47,9 +47,10 @@ Concepts/guides on using how to make use of RTRT. Covers the hardware requiremen
 
 * [Unreal Fest 2018 Presentations + Slides](https://www.unrealengine.com/en-US/events/unreal-fest-europe-2018)
 * [Unreal Fest 2019 Presentations + Slides](https://www.unrealengine.com/en-US/events/unreal-fest-europe-2019)
-* [UE4 Trello Roadmap](https://trello.com/b/TTAVI7Ny/ue4-roadmap)
+* [Ray Tracing Gems: High-quality and real-time rendering with DXR and other APIs](http://www.realtimerendering.com/raytracinggems/unofficial_RayTracingGems_v1.6.pdf)
 
 ## References
 * [Unreal Documentation](https://docs.unrealengine.com/)
 * [Unreal Academy](https://academy.unrealengine.com/)
 * [Unreal Wiki](https://wiki.unrealengine.com) (Lacks support for recent engine versions)
+* [UE4 Trello Roadmap](https://trello.com/b/TTAVI7Ny/ue4-roadmap)
