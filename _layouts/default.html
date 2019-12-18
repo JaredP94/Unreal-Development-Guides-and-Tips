@@ -12,13 +12,7 @@
 
   </head>
   <body>
-      <pre>
-        site: {{ site | jsonify | escape }}
-        page: {{ page | jsonify | escape }}
-        layout: {{ layout | jsonify | escape }}
-        content: {{ content | jsonify | escape }}
-        paginator: {{ paginator | jsonify | escape }}
-      </pre>
+
       <header>
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
