@@ -42,6 +42,7 @@ Concepts/guides on using how to make use of RTRT. Covers the hardware requiremen
 * [Ray-Traced Ambient Occlusion](Content/RTRT/AmbientOcclusion.md)
 * [Ray-Traced Global Illumination](Content/RTRT/GlobalIllumination.md)
 * [Performance Analysis and Debugging](Content/RTRT/PerformanceDebug.md)
+* [Path Tracer Benchmarking](Content/RTRT/PathTracer.md)
 
 ## Interesting Resources
 
