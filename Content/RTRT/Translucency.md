@@ -2,10 +2,8 @@
 
 A summarised guide on utilising ray-traced translucency to accurately represent the physical handling of light and reflections on transparent materials. As well as performance optimisations including roughness control, refraction ray limiting, samples per pixel, reflection shadows and refraction control.
 
-## Realistic Reflections
-* Ray-traced reflections simulate accurate environment reflections that can support multiple bounces to create inter-reflection for reflective surfaces. 
-
-* This provides a physically realistic representation of reflection, absorption, and refraction properties for transparent surfaces within a scene. These differences are easily noted in the comparison below:
+## Realistic Translucency
+* Ray-traced translucency provides a physically realistic representation of reflection, absorption, and refraction properties for transparent surfaces within a scene. These differences are easily noted in the comparison below:
   
     ![Raster Translucency](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_Translucency_Disabled.jpg)
     *Image 1: Scene rendered with Raster Translucency*
