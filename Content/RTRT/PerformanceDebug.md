@@ -71,3 +71,8 @@ A summarised guide on using performance analysis and debugging tools within RTRT
 
     ![Ray Tracing Quality Switch Replace Node Example](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/RT_MaterialQualitySwitch.png)
     *Image 6: Ray Tracing Quality Switch Replace Node Example*
+
+## Geometry Considerations
+* Geometry with small holes or lots of little details can impact performance, such as foliage and fences. 
+
+* Indoor environments are slower to render than outdoors ones. For example, when light enters from outside, areas that are directly lit is faster than points that are indirectly lit. Also, you have to consider that more ray-tracing features are being used, such as reflections and translucency
