@@ -33,3 +33,19 @@ A summarised guide on utilising ray-traced reflections to capture dynamic reflec
     * **Area Shadows** to have soft shadowing like ray-traced shadows
 
     * **Disable** to disable shadowing in ray-traced reflections
+
+* RT reflections can be expensive when rendering multiple bounces with reflections inside of reflections. Without multiple bounces, the intra-reflected material will appear black. To use **Reflection Capture Actors** as the last bounce in RT reflections, press the **Backtick key** to open the console and then input the following command:
+  
+    ```
+    r.RayTracing.Reflections.ReflectionCaptures 1
+    ```
+    For example, you can have a single bounce of RT reflection, then use a reflection capture for the second bounce, saving performance. If you use two bounces of RT reflection, then the third bounce would be the reflection capture. This example is shown below:
+
+    ![Single Bounce RT Reflection](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/1_RTRRefCapture.jpg)
+    *Image 3: Single Bounce RT Reflection with no Reflection Capture Fallback*
+
+    ![Single Bounce RT Reflection](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/2_RTRRefCapture.jpg)
+    *Image 4: Two Bounces RT Reflection with no Reflection Capture Fallback*
+
+    ![Ray-Traced Reflections](https://docs.unrealengine.com/Images/Engine/Rendering/RayTracing/3_RTRRefCapture.jpg)
+    *Image 5: Single Bounce RT Reflection with Reflection Capture Fallback*
