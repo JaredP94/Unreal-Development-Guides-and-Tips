@@ -71,20 +71,20 @@ Concepts/guides on using how to make use of RTRT. Covers the hardware requiremen
 
 You'd like to help make this guide even more awesome? Seems like today's my lucky day! In order to maintain consistency of the guide and its code base, please adhere to the following steps, and I'd be pleased to include your additions.
 
-### Step 1: Choose what to do
+**Step 1: Choose what to do**
 
 If you've got no idea how to help, feel free to read through the existing content and look for ways to enhance it, be it grammar changes, content addition, media attachments or a GIF demonstration.
 
 If you know exactly what is missing, [open a new issue](https://github.com/JaredP94/Unreal-Development-Guides-and-Tips/issues/new) to begin a short discussion about your idea and how it fits the guide. If we all agree, you're good to go!
 
-### Step 2: Fork the project and check out the code
+**Step 2: Fork the project and check out the code**
 
 The guide is to be community developed using the [GitFlow branching model](http://nvie.com/posts/a-successful-git-branching-model/). In order to contribute, you should check out the latest master branch, and create a new section or enhancement branch to be merged back.
 
-### Step 3: Implement your new feature or enhancement
+**Step 3: Implement your new feature or enhancement**
 
 The guide is ideally meant to target the latest version of Unreal Engine 4 and so it's always best to fact check your content against the latest version documentation.
 
-### Step 4: Open a pull request
+**Step 4: Open a pull request**
 
 Finally, [open a pull request](https://help.github.com/articles/creating-a-pull-request/) so we can review your changes together, and finally integrate it into the guide.
