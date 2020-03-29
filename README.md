@@ -83,7 +83,7 @@ The guide is to be community developed using the [GitFlow branching model](http:
 
 **Step 3: Implement your new feature or enhancement**
 
-The guide is ideally meant to target the latest version of Unreal Engine 4 and so it's always best to fact check your content against the latest version documentation.
+The guide is ideally meant to target the latest version of Unreal Engine 4 and so it's always best to fact check your content against the latest version of documentation.
 
 **Step 4: Open a pull request**
 
