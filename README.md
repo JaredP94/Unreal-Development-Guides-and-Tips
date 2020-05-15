@@ -64,7 +64,7 @@ Concepts/guides on using how to make use of RTRT. Covers the hardware requiremen
 ## References
 * [Unreal Documentation](https://docs.unrealengine.com/)
 * [Unreal Academy](https://academy.unrealengine.com/)
-* [Unreal Wiki](https://wiki.unrealengine.com) (Lacks support for recent engine versions)
+* [Unreal Wiki](https://ue4community.wiki/) (Lacks support for recent engine versions)
 * [UE4 Trello Roadmap](https://trello.com/b/TTAVI7Ny/ue4-roadmap)
 
 ## Contributing
