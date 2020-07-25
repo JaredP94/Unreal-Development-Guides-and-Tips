@@ -2,7 +2,7 @@
 
 ![Real Time Ray Tracing](static/images/ue4_logo.png)
 
-High-level concept explanations, detailed tutorials, performance considerations, shortcuts and other useful content that aims to improve your Unreal Engine 4 development journey.
+Range of content including high-level concept explanations, detailed tutorials, performance considerations, shortcuts and other useful content that aims to improve your Unreal Engine 4 development journey.
 
 Built with the community in mind. The end goal is to become a centralised knowledge base which will compliment official documentation as well as help a range of developers, whether just starting out or seasoned veterans experimenting with new features.
 
