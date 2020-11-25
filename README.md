@@ -63,6 +63,14 @@ Concepts/guides on using Chaos Physics. Covers how to configure projects to use 
 
 * [Plugin Configuration](Content/Chaos/PluginConfig.md)
 
+### Converting Blueprints To C++
+
+![BP Conversion](static/images/coding_fire.gif)
+
+Concepts/guides on the benefits of using Blueprints versus C++. Covers the strengths and weaknesses of each approach, basic C++ architecture for maintainable design and the process of converting Blueprints to C++ implementations.
+
+* [Blueprints vs C++]()
+
 ## Interesting Resources
 
 * [Unreal Fest 2018 Presentations + Slides](https://www.unrealengine.com/en-US/events/unreal-fest-europe-2018)
