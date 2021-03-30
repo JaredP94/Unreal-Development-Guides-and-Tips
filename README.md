@@ -81,7 +81,8 @@ Concepts/guides on the benefits of using Blueprints versus C++. Covers the stren
 * [Unreal Documentation](https://docs.unrealengine.com/)
 * [Unreal Academy](https://academy.unrealengine.com/)
 * [Unreal Wiki](https://ue4community.wiki/) (Lacks support for recent engine versions)
-* [UE4 Trello Roadmap](https://trello.com/b/TTAVI7Ny/ue4-roadmap)
+* [UE4 Trello Roadmap](https://trello.com/b/TTAVI7Ny/ue4-roadmap) (No longer updated post 4.25)
+* [UE4 Public Roadmap](https://portal.productboard.com/epicgames/1-unreal-engine-public-roadmap)
 
 ## Contributing
 
