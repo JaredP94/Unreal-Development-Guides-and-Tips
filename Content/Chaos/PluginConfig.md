@@ -39,6 +39,6 @@ A summarised guide on the engine requirements for using Chaos physics within you
 ## Engine Changelog
 * This section summarises any general Chaos Physics improvements/modifications as new engine versions are made available.
   
-* **UE 4.26p1**: 
+* **UE 4.26-Chaos (currently preview 2)**: 
   
-  * First production-ready release
+  * First binary release candidate
