@@ -7,7 +7,7 @@ A summarised guide on the engine requirements for using Chaos physics within you
 
 * Engine versions 4.23 through 4.25 require source builds, and have produced varied results when trying to use Chaos since it has been in beta. For the sake of feature completeness and reliability of feature access, I will not delve into those versions (if you need to use one of these versions, see the *Setting up Chaos Destruction* section of the [documentation](https://docs.unrealengine.com/en-US/Engine/Chaos/ChaosDestruction/ChaosDestructionOverview/index.html))
 
-* Engine version 4.26 is the first to offer Chaos in a production-ready state and is included in the launcher version. At the time of writing, 4.26p1 is available for download through the Epic Games Launcher.
+* Engine version 4.26 is the first to offer Chaos in a production-ready state and is included in the launcher version. At the time of writing, 4.26p1 is available for download through the Epic Games Launcher. **NOTE: This has been reverted in the main binary version of 4.26, however, a separate 4.26-chaos binary has been made available via the launcher**
 
 * If porting an existing project, note that NVIDIA PhysX has been deprecated in 4.26 and Chaos is now the default physics engine.
 
