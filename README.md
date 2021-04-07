@@ -55,7 +55,7 @@ Concepts/guides on using how to make use of RTRT. Covers the hardware requiremen
 * [Performance Analysis and Debugging](Content/RTRT/PerformanceDebug.md)
 * [Path Tracer Benchmarking](Content/RTRT/PathTracer.md)
 
-### Chaos Physics (delayed due to UE4 removal of Chaos from binary engine)
+### Chaos Physics
 
 ![Chaos Physics](static/images/chaos_destruction.gif)
 
